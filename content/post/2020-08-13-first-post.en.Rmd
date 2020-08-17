@@ -1,0 +1,45 @@
+---
+title: First post
+author: Joe Heffernan
+date: '2020-08-13'
+slug: first-post
+categories:
+  - blogdown
+tags:
+  - blogdown
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-08-13T18:55:20-05:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+This is my personal website. I will try to create posts focusing on neuroimaging research. I chose to use the R package blogdown to create it because of these reasons:
+
+* R
+* familarity
+* community
+* visualizations
+* learn more R
+
+Here are online resources I referenced to create this website:
+
+* [`blogdown`: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/) by Yihui Xie, Amber Thomas, and Alison Presmanes Hill
+* [Up & Running with blogdown](https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/) by Alison Presmanes Hill
+* [Fun blogdown in R to design a personal website](https://annielyu.com/2020/01/12/blogdown-website/) by Annie Lyu
+* [hugo-academic docs](https://sourcethemes.com/academic/docs/)
+* [google](google.com)
+
+Here are some useful files paths I encountered:
+
+* `data/themes/` is the directory for custom themes
+* `layouts/partials/` is the directory for custom partial templates. This is how I changed the site footer. Default partials are in this directory: `themes/hugo-academic/layouts/partials/` 
+
+While creating the website, I learned there is a difference between `index.md` and `_index.md` files. `index.md` indicates a leaf bundle and `_index.md` a branch bundle. This [blog post](https://scripter.co/hugo-leaf-and-branch-bundles/) gives more information about the differences between leaf and branch bundles.
+
+In the future, I intend to finish reading the blogdown book and maybe look into learning some CSS. I also noticed some blogs with sun/moon button for changing day/night themes ([example](https://radu-matei.com/blog/dark-mode/)). I will try to put this in my website and/or alter the theme.
